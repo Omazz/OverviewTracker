@@ -19,7 +19,6 @@ public:
 
 private:
 
-    QGraphicsScene* _graphicsScene;
     Ui::IndicatorWindow *ui;
 };
 #endif // INDICATORWINDOW_H
