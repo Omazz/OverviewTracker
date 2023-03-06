@@ -2,6 +2,8 @@
 #define INDICATORWINDOW_H
 
 #include <QMainWindow>
+#include <QGraphicsScene>
+#include <QUdpSocket>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class IndicatorWindow; }
@@ -16,6 +18,8 @@ public:
     ~IndicatorWindow();
 
 private:
+
+    QGraphicsScene* _graphicsScene;
     Ui::IndicatorWindow *ui;
 };
 #endif // INDICATORWINDOW_H

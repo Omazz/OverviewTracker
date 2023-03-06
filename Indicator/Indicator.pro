@@ -1,4 +1,4 @@
-QT       += core gui
+QT += core gui network
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -9,11 +9,19 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    Scene/PlotItem.cpp \
+    Scene/RadarView.cpp \
+    Scene/TargetsLayer.cpp \
+    Scene/TrackItem.cpp \
     main.cpp \
     IndicatorWindow.cpp
 
 HEADERS += \
-    IndicatorWindow.h
+    IndicatorWindow.h \
+    Scene/PlotItem.h \
+    Scene/RadarView.h \
+    Scene/TargetsLayer.h \
+    Scene/TrackItem.h
 
 FORMS += \
     IndicatorWindow.ui
