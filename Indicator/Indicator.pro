@@ -11,6 +11,7 @@ CONFIG += c++11
 SOURCES += \
     Scene/PlotItem.cpp \
     Scene/RadarView.cpp \
+    Scene/TargetItem.cpp \
     Scene/TargetsLayer.cpp \
     Scene/TrackItem.cpp \
     main.cpp \
@@ -20,6 +21,7 @@ HEADERS += \
     IndicatorWindow.h \
     Scene/PlotItem.h \
     Scene/RadarView.h \
+    Scene/TargetItem.h \
     Scene/TargetsLayer.h \
     Scene/TrackItem.h
 
